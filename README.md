@@ -31,19 +31,30 @@ A premium, single-page restaurant website showcasing an authentic Italian dining
 
 ```bash
 git clone https://github.com/your-username/restaurant-profile.git
+```
+
 2. Navigate to the project directory:
+```bash
 cd restaurant-profile
+```
 3. Install dependencies:
+```bash
 npm install
+```
 Development
+```bash
 Run the development server:
 npm run dev
 Open http://localhost:3000 (http://localhost:3000) in your browser.
+```
 Build
+```bash
 npm run build
 npm start
+```
 
 Project Structure
+```bash
 src/
 ├── app/
 │   ├── globals.css
