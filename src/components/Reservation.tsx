@@ -110,7 +110,7 @@ export function Reservation() {
 											type='date'
 											value={payload.date}
 											onChange={(e) => setPayload((p) => ({ ...p, date: e.target.value }))}
-											className='h-11 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
+											className='h-11 w-full min-w-0 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
 										/>
 									</div>
 									<div className='grid gap-2'>
@@ -122,7 +122,7 @@ export function Reservation() {
 											type='time'
 											value={payload.time}
 											onChange={(e) => setPayload((p) => ({ ...p, time: e.target.value }))}
-											className='h-11 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
+											className='h-11 w-full min-w-0 rounded-xl border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50'
 										/>
 									</div>
 								</div>
